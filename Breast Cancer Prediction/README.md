@@ -8,14 +8,14 @@ Welcome to the Breast Cancer Prediction Dataset! 🎉 This dataset contains info
 
 Breast cancer is a disease in which cells in the breast grow out of control. There are different kinds of breast cancer. The kind of breast cancer depends on which cells in the breast turn into cancer.
 There are majorly two types of tumor:
-1) Malignant Tumor:
+1) **Malignant Tumor**:
    -Cancerous
    -Non-capsulated
    -Fast growing 
    -Metastasize to other parts of the body
    -cells have large dark nuclei;abnormal shape
 
-2) Benign tumor:
+2) **Benign tumor**:
    -Non-cancerous
    -Capsulated
    -non-invasive
