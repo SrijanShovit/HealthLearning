@@ -29,16 +29,27 @@ This Dataset is derived from a particular test called "Fine Needle Aspiration" &
 the dataset includes the following columns:
 
 1.**id**:id number for each cell
+
 2.**diagnosis**:M or B;where M represents malignant tumor & B represents Benign tumor.
+
 2.**radius**:mean of distances from center to points on the perimeter.
+
 3.**texture**:standard deviation of gray-scale values.
+
 4.**perimeter**:perimeter of a particular cell.
+
 5.**area**: area of cell.
+
 6.**smoothness**:local variation in radius lengths.
+
 7.**compactness**:perimeter^2 / area - 1.0
+
 8.**concaity**:severity of concave portions of the contour
+
 9.**concave points**:number of concave portions of the contour
+
 10.**symmetry**:checking for symmetry 
+
 11.**fractal dimension**:"coastline approximation" - 1
 
 The mean, standard error and "worst" or largest (mean of the three
