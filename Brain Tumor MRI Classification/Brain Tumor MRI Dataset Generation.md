@@ -1,11 +1,11 @@
 # About Brain Tumor MRI Dataset
-____
+
 ##### _Dataset for Brain Tumor Classification_
 
 The dataset can be found [here](https://www.kaggle.com/datasets/theiturhs/brain-tumor-mri-classification-dataset/data). The dataset contains the **brain MRI images**. This dataset is the modified version of [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/data). Certain image processing techniques and augmentation are applied on these data.
 
 ## **Tasks implemented to obtain the dataset**
-____
+
 - Exploring class, class distribution, image size distribution for both training and testing dataset.
 - Performing necessary dimension reduction
 - Performing some Pre-processing tasks using Image processing techniques
@@ -28,7 +28,7 @@ ____
 - **Total testing sample data: 1311**
 
 ## **Dataset Analysis**
-_____
+
 **Histogram of RGB Channels and its corresponding grayscale images**
 The histograms obtained suggest that there may not be significant differences in the distribution of pixel values across the color channels. Therefore grayscale conversion of RGB images will be reasonable because of reduced complexity and improved generalization (as grayscale images contain illumination information only). So the RBG images are converted to Grayscale images for further processing.
 
@@ -49,7 +49,7 @@ The histograms obtained suggest that there may not be significant differences in
 6. Image cropping
 
 # **About Dataset Folder**
-____
+
 The root directory contains four sub-folders. Training and Testing folders contains processed images and Training_Augmented and Testing_Augmented contains generated images. Each sub-folders contains other sub-folders which represents its class.
 
 _Refer to brain_tumor_mri_dataset_generation.ipynb_ to see the implemention of described steps. Visit [here](https://www.kaggle.com/datasets/theiturhs/brain-tumor-mri-classification-dataset/data) to see the modified dataset.
