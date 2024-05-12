@@ -27,6 +27,22 @@ The dataset can be found [here](https://www.kaggle.com/datasets/theiturhs/brain-
 - No. of samples for class glioma = 300
 - **Total testing sample data: 1311**
 
+**In the modified dataset, the number of samples in each class in training dataset is:**
+
+- No. of samples for class pituitary = 1557
+- No. of samples for class notumor = 1595
+- No. of samples for class meningioma = 1539
+- No. of samples for class glioma = 1521
+- **Total training sample data: 6212**
+
+**In the modified dataset, the number of samples in each class in testing dataset is:**
+
+- No. of samples for class pituitary = 400
+- No. of samples for class notumor = 405
+- No. of samples for class meningioma = 386
+- No. of samples for class glioma = 400
+- **Total testing sample data: 1591**
+
 ## **Dataset Analysis**
 
 **Histogram of RGB Channels and its corresponding grayscale images**
@@ -47,6 +63,30 @@ The histograms obtained suggest that there may not be significant differences in
 4. Largest contour selection
 5. Bounding box calculation
 6. Image cropping
+
+# Distribution of Image sizes by class of
+
+#### Training Dataset in original dataset
+![image](https://github.com/theiturhs/HealthLearning/assets/96874023/87cf7caf-d99c-430d-8d11-aff9247006c3)
+
+#### Testing Dataset in original dataset
+![image](https://github.com/theiturhs/HealthLearning/assets/96874023/077a2b41-89bb-415e-aac5-6ad33417ca21)
+
+#### Training dataset after pre-processing
+![image](https://github.com/theiturhs/HealthLearning/assets/96874023/275c0b72-87ad-4be0-829f-5689c7460b2f)
+
+#### Testing dataset after pre-processing
+![image](https://github.com/theiturhs/HealthLearning/assets/96874023/d5821226-e896-4c3f-a477-4caf1a072408)
+
+#### Training dataset after augmentation
+![image](https://github.com/theiturhs/HealthLearning/assets/96874023/749b6a03-5264-4cec-bc3d-c056bb209ca2)
+
+#### Testing dataset after augmentation
+![image](https://github.com/theiturhs/HealthLearning/assets/96874023/c44f0554-00df-41c6-bb29-78b2275b6a7a)
+
+# Augmented Images
+![image](https://github.com/theiturhs/HealthLearning/assets/96874023/ddb45508-609b-4ffe-9e03-e0066301cb15)
+
 
 # **About Dataset Folder**
 
