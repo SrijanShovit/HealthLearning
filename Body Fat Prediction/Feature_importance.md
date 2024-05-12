@@ -10,15 +10,18 @@ Refer PCA_description.md
 We utilized Chi-squared and ANOVA tests to rank the features based on their importance contribution towards predicting body density.
 
 ### Chi-squared Test
-The Chi-squared test assesses the independence between categorical features and the target variable. Here, we discretized the target variable and computed Chi-squared scores and p-values for each feature.
+- The Chi-squared test is used to determine whether there is a significant association between categorical variables.
+-  Target variable, 'Density', appears to be continuous, the Chi-squared test might not be applicable to it directly. However, if we discretize the target variable into bins or categories, we can use the Chi-squared test to analyze its relationship with other categorical features in our dataset.
 
 
 ### ANOVA Test
-ANOVA (Analysis of Variance) is used to determine whether there are any statistically significant differences between the means of two or more groups. We applied ANOVA to quantify the relationship between continuous features and the target variable.
+- ANOVA is used to compare the means of three or more groups to determine if they are significantly different from each other. It assesses whether there are statistically significant differences among group means.
+- ANOVA can be applied to assess whether there are significant differences in the means of our continuous features ('Weight', 'Age', 'Height', etc.) across different categories of our target variable, 'Density'.
 
 
 ## Conclusion
-we can conclude that 'BodyFat', 'Weight', and 'Abdomen' are the most important features for predicting body density, followed by 'Age', 'Chest', 'Hip', 'Thigh', 'Biceps', 'Knee', 'Neck', and 'Forearm'. 'Ankle', 'Height', and 'Wrist' show weaker associations with the target variable and may have less predictive power in this context.
+- the Chi-squared test is suitable for analyzing relationships between categorical variables, while ANOVA is suitable for comparing means across different groups, especially when dealing with continuous and categorical variables. 
+- we can conclude that 'BodyFat', 'Weight', and 'Abdomen' are the most important features for predicting body density, followed by 'Age', 'Chest', 'Hip', 'Thigh', 'Biceps', 'Knee', 'Neck', and 'Forearm'. 'Ankle', 'Height', and 'Wrist' show weaker associations with the target variable and may have less predictive power in this context.
 
 ## Repository Structure
 - `PCA_analysis.ipynb`: Jupyter Notebook containing PCA analysis
