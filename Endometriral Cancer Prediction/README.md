@@ -1,16 +1,20 @@
-About Dataset
-Endometrial cancer (also called endometrial carcinoma) starts in the cells of the inner lining of the uterus (the endometrium). This is the most common type of cancer in the uterus. Endometrial carcinomas can be divided into different types based on how the cells look under the microscope.
+# Endometrial cancer Prediction Dataset 
 
-What causes uterine cancer?
-
-Researchers aren’t sure of the exact cause of uterine cancer. Something happens to create changes in cells in your uterus. The mutated cells grow and multiply out of control, which can form a mass called a tumor.
-Let's take a brief look at the image of Cancerous uterus
+Welcome to the Endometrial cancer Prediction Dataset! 🎉 This dataset contains information about endometrial cancer, also known as endometrial carcinoma, which is a type of cancer that starts in the cells of the inner lining of the uterus (the endometrium). Endometrial carcinomas can be categorized into different types based on cellular characteristics observed under a microscope.
 
 
-What is MSI Mantis score?
+- [Endometrial cancer Prediction Dataset](https://www.kaggle.com/datasets/yeganehbavafa/uterine-corpus-endometrial-carcinoma)
 
-The MANTIS score is a score that predicts a patient's MSI status . The higher the MANTIS score is, the more likely a patient is to have the MSI-H status.
-What is MSI sensor?
+## Cause of Uterine Cancer
 
-MSIsensor: microsatellite instability detection using paired tumor-normal sequence data.
-The resulting MSIsensor score is a value between 0 and 100 that corresponds to the percentage of mutated microsatellite loci.
+The exact cause of uterine cancer is not fully understood. However, it is believed that mutations occur in the cells of the uterus, causing them to grow and multiply uncontrollably, leading to the formation of tumors.
+
+## MSI Mantis Score
+The MANTIS score is a predictive score for a patient's MSI (Microsatellite Instability) status. A higher MANTIS score indicates a higher likelihood of MSI-H (high microsatellite instability) status.
+
+## MSI Sensor
+MSIsensor is a tool used for microsatellite instability detection using paired tumor-normal sequence data. The resulting MSIsensor score is a value between 0 and 100, indicating the percentage of mutated microsatellite loci.
+
+## Usage
+- Researchers and healthcare professionals can utilize this dataset for studying endometrial cancer and its various types.
+- ial and should be used only for educational purposes.
