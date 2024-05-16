@@ -6,11 +6,11 @@ This project aims to predict the likelihood of developing acne using deep learni
 #### Dataset:
 The dataset used for training and testing consists of images of facial skin affected by acne, labeled with corresponding acne severity levels. Additionally, demographic and lifestyle factors such as age, gender, diet, skincare routine, and environmental conditions may also be incorporated into the dataset for more accurate predictions.
 
-- **Training Dataset:** This subset of the dataset is used to train the deep learning model. It comprises a large number of labeled images along with associated non-image features.[Training Data](/kaggle/input/acne-dataset-in-yolov8-format/data-2/train)
+- **Training Dataset:** This subset of the dataset is used to train the deep learning model. It comprises a large number of labeled images along with associated non-image features.
   
-- **Validation Dataset:** This dataset is used to fine-tune the model hyperparameters and evaluate its performance during training. It helps prevent overfitting by providing an independent set of data for validation.[Validation DataSet](/kaggle/input/acne-dataset-in-yolov8-format/data-2/valid)
+- **Validation Dataset:** This dataset is used to fine-tune the model hyperparameters and evaluate its performance during training. It helps prevent overfitting by providing an independent set of data for validation.
   
-- **Testing Dataset:** After training the model, it is evaluated on this dataset to assess its generalization performance. The testing dataset is not used during training or validation to ensure unbiased evaluation.[Testing DataSet](/kaggle/input/acne-dataset-in-yolov8-format/data-2/test)
+- **Testing Dataset:** After training the model, it is evaluated on this dataset to assess its generalization performance. The testing dataset is not used during training or validation to ensure unbiased evaluation.
 
 #### Model Architecture:
 The deep learning model employed for acne prediction utilizes convolutional neural networks (CNNs) for image processing and feature extraction. The model may also include recurrent neural networks (RNNs) or fully connected layers to incorporate non-image features from the dataset. Transfer learning techniques can be applied using pre-trained models such as VGG, ResNet, or EfficientNet to enhance performance, especially with limited data availability.
