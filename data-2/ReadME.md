@@ -5,6 +5,7 @@ This project aims to predict the likelihood of developing acne using deep learni
 
 #### Dataset:
 The dataset used for training and testing consists of images of facial skin affected by acne, labeled with corresponding acne severity levels. Additionally, demographic and lifestyle factors such as age, gender, diet, skincare routine, and environmental conditions may also be incorporated into the dataset for more accurate predictions.
+[Acne _Prediction_DataSet](https://www.kaggle.com/datasets/sakshi21045001/acne-prediction-dataset)
 
 - **Training Dataset:** This subset of the dataset is used to train the deep learning model. It comprises a large number of labeled images along with associated non-image features.
   
