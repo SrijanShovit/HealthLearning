@@ -28,23 +28,6 @@
     - Some other relations that seemed intuitive
     - Pairplot according to target variable - one plot to rule them all
 
-## 3. Data Processing
-
 + Conclusions from EDA
 
-+ Importing Packages
 
-+ Making features model ready
-
-## 4. Modeling
-
-+ Linear Classifiers
-    - Support Vector Machines
-    - Hyperparameter tuning of SVC
-    - Logistic Regression
-    - ROC Curve
-
-+ Tree Models
-    - Decision Tree
-    - Random Forest
-    - Gradient Boosting Classifier - without tuning
