@@ -1,0 +1,9 @@
+pandas
+numpy
+matpllotlib
+seaborn
+warnings
+polars
+scikit-learn
+torch
+sklearn
