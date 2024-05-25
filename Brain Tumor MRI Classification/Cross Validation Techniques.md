@@ -1,7 +1,7 @@
 # Cross Validation Techniques for Brain Tumor MRI Classification
 ____
 
-The dataset on which the cross validation is carried out can be found [on kaggle](https://www.kaggle.com/datasets/theiturhs/brain-tumor-mri-classification-dataset/data). Find the implementation of this [in this notebook]().
+The dataset on which the cross validation is carried out can be found [on kaggle](https://www.kaggle.com/datasets/theiturhs/brain-tumor-mri-classification-dataset/data). Find the implementation of this CrossValidation_Techniques.ipynb notebook.
 
 ### Cross Validation Teachniques carried out are as follows:
 *Different techniques for distributing dataset into training and testing dataset*
@@ -19,7 +19,7 @@ The dataset on which the cross validation is carried out can be found [on kaggle
 | Repeated K-Fold CV	| 0.9585 |	0.9504 |	0.9838 |	0.9255 |	0.9703|
 | Stratified K-Fold CV	| 0.9548 |	0.9544	| 0.9838 |	0.9096 |	0.9667|
 
-**Out of these techniques, K-Fold CV technique gives better overall accuracy and class wise accuracy.**
+**Out of these techniques, K-Fold CV technique gives better overall accuracy and class wise accuracy. Therefore, this technique can be used to divide our dataset into training and testing set.**
 
 1. Hold Out Technique: Randomly the dataset was distributed into 80% training set and 20% validation set. The aacuracy achieved was 93.80%.
 2. K-Fold Cross Validation: This divides data into k equal-sized folds, trains the model k times, each time using k-1 folds as training data and one fold as validation data. The accuracy achieved was 96.04%.
