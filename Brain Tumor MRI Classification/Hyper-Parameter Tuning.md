@@ -1,7 +1,6 @@
 # Hyper-Parameter Tuning Techniques for Brain Tumor MRI Classification
-____
 
-The dataset on which the cross validation is carried out can be found [on kaggle](https://www.kaggle.com/datasets/theiturhs/brain-tumor-mri-classification-dataset/data). Find the implementation of this [in this notebook](). Learner module, FastAI, is considered to provide a convenient way to create and fine-tune convolutional neural network (CNN) models. vision.learner is a function that helps us to construct a learner object, which has the model architecture, data, training configuration, and other elements. We can specify a pre-trained model architecture and fine-tune it on the dataset.
+The dataset on which the cross validation is carried out can be found [on kaggle](https://www.kaggle.com/datasets/theiturhs/brain-tumor-mri-classification-dataset/data). Find the implementation of this in Hyper-parameter_Tuning.ipynb notebook. Learner module, FastAI, is considered to provide a convenient way to create and fine-tune convolutional neural network (CNN) models. vision.learner is a function that helps us to construct a learner object, which has the model architecture, data, training configuration, and other elements. We can specify a pre-trained model architecture and fine-tune it on the dataset.
 
 ### Hyper-Parameter Tuning Teachniques carried out are as follows:
 *Different techniques to find out suitable hyper-parameters*
@@ -13,7 +12,7 @@ The dataset on which the cross validation is carried out can be found [on kaggle
 | -- | -- | -- | -- | -- | -- | -- |
 | Random Search optimization algorithm - Run 1 | 95.27% | ResNet50 | 5.527e-5 | 7 | 64 | 0.4 |
 | Random Search optimization algorithm - Run 2 | 95.53% | ResNet50 | 4e-6 | 5 | 64 | 0.2 |
-| Hyperparameter Optimization with Optuna's Successive Halving Pruner | 
+| Hyperparameter Optimization with Optuna's Successive Halving Pruner | 98.51% | ResNet18 | 0.004016 | 13 | 32 | 0.2680 |
 
 **Out of these techniques,Hyperparameter Optimization with Optuna's Successive Halving Pruner technique gives better overall accuracy. It almost take 40-50 minutes for each to fine-tune the model.**
 
@@ -36,6 +35,14 @@ For n_trails = 10, the accuracy score and best hyper-parameter are as follows:
 | 8         | 0.9212     | ResNet18     | 0.0002       | 5      | 64         | 0.4  |
 | 9         | 0.9203     | ResNet34     | 0.0007       | 13     | 32         | 0.4  |
 
+The best accuracy score is 0.9527 with these hyperparameters:
+
+- Architecture: ResNet 50
+- Weight Decay: 5.527e-5
+- Epochs: 7
+- Batch Size: 64
+- Drop: 0.4
+
 #### Random Search Optimizing Algorithm - Run 2
 
 For n_trails = 10, the accuracy score and best hyper-parameter are as follows:
@@ -53,6 +60,14 @@ For n_trails = 10, the accuracy score and best hyper-parameter are as follows:
 | 8     | 0.9238     | ResNet34     | 0.000824     | 13     | 64         | 0.4  |
 | 9     | 0.9361     | ResNet18     | 0.000018     | 8      | 32         | 0.2  |
 
+The best accuracy score is 0.9553 with these hyperparameters:
+
+- Architecture: ResNet 50
+- Weight Decay: 4e-6
+- Epochs: 5
+- Batch Size: 64
+- Drop: 0.2
+
 #### Hyperparameter Optimization with Optuna's Successive Halving Pruner
 
 For n_trails = 10, accuracy scores and hyper-paramters are:
@@ -69,6 +84,14 @@ For n_trails = 10, accuracy scores and hyper-paramters are:
 | **7**     | **0.9851**     | **resnet34**     | **0.004016**     | **13**     | **32**         | **0.2680**             |
 | 8     | 0.9667     | resnet50     | 0.008095     | 15     | 32         | 0.3013             |
 | 9     | 0.9632     | resnet50     | 0.0006995    | 6      | 32         | 0.3595             |
+
+The best accuracy score is 0.9851 with these hyperparameters:
+
+- Architecture: ResNet 34
+- Weight Decay: 0.004016
+- Epochs: 13
+- Batch Size: 32
+- Drop: 0.268
 
 ##### Summarizing
 
