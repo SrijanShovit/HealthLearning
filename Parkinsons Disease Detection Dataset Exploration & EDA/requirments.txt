@@ -1,0 +1,5 @@
+here is the important library which we used to Analyze the data-
+pandas 
+numpy
+seaborn 
+matplotlib
