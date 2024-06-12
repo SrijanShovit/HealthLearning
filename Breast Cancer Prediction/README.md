@@ -61,7 +61,14 @@ All feature values are recoded with four significant digits.
 
 **Class distribution**: 357 benign, 212 malignant
 
+**Duplicate Values**: none
+
 **Missing attribute values**: none
+
+**Prediction is done with three different models:**
+1. Logistic Regression: Testing Accuracy=0.951048951048951
+2. Decision Tree Classification: Testing Accuracy=0.9370629370629371
+3. Random Forest Classification: Testing Accuracy=0.965034965034965
 
 ## Conclusion📝
 
